@@ -1,92 +1,137 @@
-# 🧠 Breast Cancer Diagnosis — Logistic Regression from Scratch
+# 🚀 HireTrack – Recruitment Management System
 
-This project implements logistic regression from scratch (without using ML libraries like scikit-learn) to classify breast cancer as malignant or benign using the [Breast Cancer Wisconsin Diagnostic dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data). The project also includes full exploratory data analysis, feature scaling, visualizations, model evaluation, and a user-friendly input prediction interface.
-
----
-
-## 📁 Dataset
-
-- Source: [Kaggle - Breast Cancer Wisconsin Diagnostic Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
-- 569 records with 30 numeric features
-- Target: diagnosis — Malignant (M) or Benign (B)
+HireTrack is a full-stack Recruitment Management System designed to simplify and automate the hiring process. The platform enables recruiters to post job openings, manage candidate applications, schedule interviews, and track recruitment progress, while candidates can explore opportunities and apply seamlessly.
 
 ---
 
-## 🧪 Project Highlights
+## ✨ Features
 
-- Logistic Regression implemented from scratch
-- No use of high-level ML libraries for modeling
-- End-to-end pipeline: preprocessing → training → evaluation → live predictions
-- Rich data analysis and visualizations included
-- Scalable and modular codebase with clean docstrings and comments
+### 👨‍💼 Recruiter Features
 
----
+* Secure Recruiter Registration & Login
+* Create, Update, and Delete Job Listings
+* Manage Candidate Applications
+* View Applicant Profiles
+* Search and Filter Candidates
+* Update Hiring Status
+* Recruitment Dashboard
 
-## 📊 Features Used
+### 👨‍🎓 Candidate Features
 
-- Radius, Texture, Perimeter, Area, Smoothness (mean, standard error, worst)
-- Compact feature selection not used — all 30 numeric features are scaled and used
+* User Registration & Authentication
+* Browse Available Jobs
+* Apply for Multiple Jobs
+* Track Application Status
+* 
+### 🔐 Security Features
 
----
+* Secure Authentication
+* Password Encryption
+* Session Management
+* Role-Based Access Control
 
-## 📉 Visualizations
+### 📊 Management Features
 
-- 📌 Diagnosis class distribution (Benign vs Malignant)
-- 🔥 Correlation heatmap
-- 🔍 Pairplots for selected features
-- 🧮 Cost function convergence over training epochs
-
----
-![image](https://github.com/user-attachments/assets/2f80bc40-37c0-4c3f-9ade-4d427dd3c8da)
-![image](https://github.com/user-attachments/assets/544cec98-7588-4763-8916-8b6c245a75ac)
-
-
-## 🧠 Model Overview
-
-- Algorithm: Logistic Regression
-- Loss Function: Binary Cross-Entropy
-- Optimization: Gradient Descent (custom implementation)
-- Feature Scaling: StandardScaler from sklearn.preprocessing
+* Candidate Tracking System
+* Job Management Portal
+* Application Workflow Management
+* Recruitment Analytics Dashboard
 
 ---
 
-## 📈 Results
+## 🛠️ Tech Stack
 
-- Training Accuracy: ~98–99% (depending on initial weights and learning rate)
-- Final cost convergence visualized
-- Real-time prediction interface with manual user input
+### Frontend
 
----
+* HTML
+* CSS
+* JavaScript
 
-## 💻 Usage
 
-1. Clone the repository:
-    bash
-    git clone https://github.com/yourusername/breast-cancer-logistic.git
-    cd breast-cancer-logistic
-    
+### Backend
 
-2. Install required libraries:
-    bash
-    pip install numpy pandas matplotlib seaborn scikit-learn
-    
+* Node.js
+* Express.js
 
-3. Run the Jupyter Notebook:
-    bash
-    jupyter notebook
-    
+### Database
 
-4. Execute all cells step by step.
+* MongoDB
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Postman
 
 ---
 
-## 🧑‍⚕ Example Prediction
+## 🏗️ Project Workflow
 
-```txt
-Enter 30 feature values separated by spaces:
-17.99 10.38 122.8 1001.0 0.1184 ... (total 30 values)
+1. Recruiters post job openings.
+2. Candidates browse and apply for jobs.
+3. Applications are stored and managed in the database.
+4. Recruiters review and shortlist candidates.
+5. Application statuses are updated throughout the hiring process.
 
-## 📌 Future Improvements
-- Add test/train split and validation
-- GUI or Web App interface using Streamlit or Flask
-- Model comparison with scikit-learn implementation
+---
+
+## 📂 Key Modules
+
+* Authentication Module
+* Recruiter Management Module
+* Candidate Management Module
+* Job Posting Module
+* Application Status Tracking Module
+
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/PranjalAgarwal12/Hiretrack-Recruitment-System.git
+cd Hiretrack-Recruitment-System
+npm install
+npm start
+```
+
+Server will run on:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 🎯 Project Highlights
+
+✅ Full Recruitment Lifecycle Management
+
+✅ RESTful API Architecture
+
+✅ Secure Authentication System
+
+✅ Candidate Tracking Dashboard
+
+✅ Scalable Node.js Backend
+
+✅ Database-Driven Application
+
+---
+
+## 🔮 Future Enhancements
+
+* AI Resume Screening
+*Role Based Dashboard
+* Job Recommendation System
+---
+
+## 👨‍💻 Author
+
+Pranjal Agarwal
+
+GitHub: https://github.com/PranjalAgarwal12
+
+---
+
